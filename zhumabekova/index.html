@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HappyFood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">HappyFood</div>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Магазины</a>
+        <a href="#">Корзина</a>
+    </nav>
+</header>
+
+<div class="layout">
+
+    <main class="content">
+
+    <!-- Пятёрочка -->
+    <section class="store">
+        <h2>Пятёрочка</h2>
+        <div class="products">
+
+            <div class="product">
+                <img src="images/milk.webp" alt="Молоко">
+                <h4>Молоко 1 л</h4>
+                <p>89 ₽</p>
+                <button onclick="addToCart('Молоко 1 л', 89)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/bread.jpg" alt="Хлеб">
+                <h4>Хлеб</h4>
+                <p>45 ₽</p>
+                <button onclick="addToCart('Хлеб',45)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/eggs.avif" alt="Яйца">
+                <h4>Яйца</h4>
+                <p>110 ₽</p>
+                <button onclick="addToCart('Яйца',110)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/sugar.jpg" alt="Сахар">
+                <h4>Сахар</h4>
+                <p>79 ₽</p>
+                <button onclick="addToCart('Сахар',79)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/apples.avif" alt="Яблоки">
+                <h4>Яблоки</h4>
+                <p>120 ₽</p>
+                <button onclick="addToCart('Яблоки',120)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/macarons.webp" alt="Макароны">
+                <h4>Макароны</h4>
+                <p>75 ₽</p>
+                <button onclick="addToCart('Макароны',75)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/maslo.webp" alt="Масло">
+                <h4>Масло</h4>
+                <p>139 ₽</p>
+                <button onclick="addToCart('Масло',139)">В корзину</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Магнит -->
+    <section class="store">
+        <h2>Магнит</h2>
+        <div class="products">
+
+            <div class="product">
+                <img src="images/chicken.png" alt="Куриное филе">
+                <h4>Куриное филе</h4>
+                <p>349 ₽</p>
+                <button onclick="addToCart('Куриное филе',349)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/rice.webp" alt="Рис">
+                <h4>Рис</h4>
+                <p>110 ₽</p>
+                <button onclick="addToCart('Рис',110)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/cheese.webp" alt="Сыр">
+                <h4>Сыр</h4>
+                <p>189 ₽</p>
+                <button onclick="addToCart('Сыр',189)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/sausage.jpg" alt="Колбаса">
+                <h4>Колбаса</h4>
+                <p>229 ₽</p>
+                <button onclick="addToCart('Колбаса',229)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/yougurt.jpg" alt="Йогурт">
+                <h4>Йогурт</h4>
+                <p>59 ₽</p>
+                <button onclick="addToCart('Йогурт',59)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/cookies.jpg" alt="Печенье">
+                <h4>Печенье</h4>
+                <p>99 ₽</p>
+                <button onclick="addToCart('Печенье',99)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/tea.jpg" alt="Чай">
+                <h4>Чай</h4>
+                <p>149 ₽</p>
+                <button onclick="addToCart('Чай',149)">В корзину</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Додо Пицца -->
+    <section class="store">
+        <h2>Додо Пицца</h2>
+        <div class="products">
+
+            <div class="product">
+                <img src="images/peppe.webp" alt="Пепперони">
+                <h4>Пепперони</h4>
+                <p>699 ₽</p>
+                <button onclick="addToCart('Пепперони',699)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/margarita.jpg" alt="Маргарита">
+                <h4>Маргарита</h4>
+                <p>599 ₽</p>
+                <button onclick="addToCart('Маргарита',599)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/cheesepizza.jpg" alt="4 сыра">
+                <h4>4 сыра</h4>
+                <p>749 ₽</p>
+                <button onclick="addToCart('4 сыра',749)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/frenchfries.webp" alt="Картофель фри">
+                <h4>Картофель фри</h4>
+                <p>199 ₽</p>
+                <button onclick="addToCart('Фри',199)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/wings.jpg" alt="Крылья">
+                <h4>Крылья</h4>
+                <p>299 ₽</p>
+                <button onclick="addToCart('Крылья',299)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/cake.webp" alt="Чизкейк">
+                <h4>Чизкейк</h4>
+                <p>249 ₽</p>
+                <button onclick="addToCart('Чизкейк',249)">В корзину</button>
+            </div>
+
+            <div class="product">
+                <img src="images/cola.webp" alt="Кола">
+                <h4>Кола</h4>
+                <p>129 ₽</p>
+                <button onclick="addToCart('Кола',129)">В корзину</button>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+    <!-- Корзина -->
+    <aside class="cart">
+        <h3>Корзина</h3>
+        <ul id="cart-items"></ul>
+        <p><b>Итого:</b> <span id="total">0</span> ₽</p>
+    </aside>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
